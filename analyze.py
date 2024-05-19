@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-bDWithoutMono = pd.read_excel('data\БД_без_моно_full.xlsx')
-bDMono = pd.read_excel('data\БД_с_моно_full.xlsx')
+bDWithoutMono = pd.read_excel('.\\data\\БД_без_моно_full.xlsx')
+bDMono = pd.read_excel('.\\data\\БД_с_моно_full.xlsx')
 
 # add column about mono
 bDWithoutMono['isMono'] = False
@@ -20,10 +20,10 @@ concatenated_data = concatenated_data.sort_values(by='Start')
 # Удаление дубликатов, оставляя только запись с самой свежей датой для каждого 'CaseID'
 unique_data = concatenated_data.drop_duplicates(subset='CaseID', keep='first')
 # save
-unique_data.to_excel('data\Объединенные_данные.xlsx', index=False)
-mergedData = pd.read_excel('data\Объединенные_данные.xlsx')
-d1 = pd.read_excel('data\Показатель_D 1.xlsx')
-f1 = pd.read_excel('data\Показатель_F 1.xlsx')
+unique_data.to_excel('.\\data\\Объединенные_данные.xlsx', index=False)
+mergedData = pd.read_excel('.\\data\\Объединенные_данные.xlsx')
+d1 = pd.read_excel('.\\data\\Показатель_D 1.xlsx')
+f1 = pd.read_excel('.\\data\\Показатель_F 1.xlsx')
 d_stat = d1.drop_duplicates(subset="CaseID")
 
 f_stat = (f1.sort_values(["Дата взятия"])).drop_duplicates(subset="CaseID")
@@ -31,8 +31,8 @@ f_stat = (f1.sort_values(["Дата взятия"])).drop_duplicates(subset="Cas
 f_stat.rename(columns={"Результат": "Результат_F"}, inplace=True)
 union_results_df = pd.merge(d_stat[["CaseID", "Результат_D"]], f_stat[["CaseID", "Результат_F"]], on="CaseID", how="inner")
 union_result = pd.merge(mergedData, union_results_df, on="CaseID", how="inner")
-union_result.to_excel('data\финальные_данные.xlsx', index=False)
-(pd.concat([union_result.loc[union_result["Outcome"] == "Умер"], union_result.loc[union_result["Outcome"] == "Выписан"]])).to_excel("data\\isalive.xlsx")
+union_result.to_excel('.\\data\\финальные_данные.xlsx', index=False)
+(pd.concat([union_result.loc[union_result["Outcome"] == "Умер"], union_result.loc[union_result["Outcome"] == "Выписан"]])).to_excel(".\\data\\isalive.xlsx")
 
 
 print("Done!")
