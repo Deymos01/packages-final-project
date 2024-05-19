@@ -30,5 +30,6 @@ f_stat = (f1.sort_values(["Дата взятия"])).drop_duplicates(subset="Cas
 
 f_stat.rename(columns={"Результат": "Результат_F"}, inplace=True)
 union_results_df = pd.merge(d_stat[["CaseID", "Результат_D"]], f_stat[["CaseID", "Результат_F"]], on="CaseID", how="inner")
-union_results = pd.merge(mergedData, union_results_df, on="CaseID", how="inner")
-union_results.to_excel(r'финальные_данные.xlsx', index=False)
+union_result = pd.merge(mergedData, union_results_df, on="CaseID", how="inner")
+union_result.to_excel(r'финальные_данные.xlsx', index=False)
+(pd.concat([union_result.loc[union_result["Outcome"] == "Умер"], union_result.loc[union_result["Outcome"] == "Выписан"]])).to_excel("isalive.xlsx")
