@@ -33,3 +33,5 @@ union_results_df = pd.merge(d_stat[["CaseID", "Результат_D"]], f_stat[[
 union_result = pd.merge(mergedData, union_results_df, on="CaseID", how="inner")
 union_result.to_excel(r'финальные_данные.xlsx', index=False)
 (pd.concat([union_result.loc[union_result["Outcome"] == "Умер"], union_result.loc[union_result["Outcome"] == "Выписан"]])).to_excel("isalive.xlsx")
+
+print("Done!")
