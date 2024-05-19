@@ -25,13 +25,9 @@ for indexA, rowA in groupA.iterrows():
                 abs(rowA["Результат_D"] - rowB["Результат_D"]) / rowA["Результат_D"] <= 0.1 and
                 resFgroupA[indexA] and resFgroupB[indexB] and
                 abs(rowA["Результат_F"] - rowB["Результат_F"]) / rowA["Результат_F"] <= 0.1):
-            # res = pd.concat([res, pd.DataFrame({"CaseID_A": rowA["CaseID"], "CaseID_B": rowB["CaseID"],
-            #                                     "Age_A": rowA["Age"], "Age_B": rowB["Age"], "Gender": rowA["Gender"],
-            #                                     "Result_D_A": rowA["Результат_D"], "Result_D_B": rowB["Результат_D"],
-            #                                     "Result_F_A": rowA["Результат_F"], "Result_F_B": rowB["Результат_F"]}, index=[0])], ignore_index=True)
             res = res._append({"CaseID_A": rowA["CaseID"], "CaseID_B": rowB["CaseID"],
-                              "Age_A": rowA["Age"], "Age_B": rowB["Age"], "Gender": rowA["Gender"],
-                                "Result_D_A": rowA["Результат_D"], "Result_D_B": rowB["Результат_D"],
-                                "Result_F_A": rowA["Результат_F"], "Result_F_B": rowB["Результат_F"]}, ignore_index=True)
+                               "Age_A": rowA["Age"], "Age_B": rowB["Age"], "Gender": rowA["Gender"],
+                               "Result_D_A": rowA["Результат_D"], "Result_D_B": rowB["Результат_D"],
+                               "Result_F_A": rowA["Результат_F"], "Result_F_B": rowB["Результат_F"]}, ignore_index=True)
 
 res.to_excel('.\\data\\результаты.xlsx', index=False)
