@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 bDWithoutMono = pd.read_excel('.\\data\\БД_без_моно_full.xlsx')
