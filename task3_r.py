@@ -1,5 +1,3 @@
-import sys
-
 import pandas as pd
 
 dataframe = pd.read_excel('.\\data\\финальные_данные.xlsx')
@@ -14,10 +12,10 @@ resDgroupB = groupB["Результат_D"].apply(lambda x: isinstance(x, float)
 resFgroupA = groupA["Результат_F"].apply(lambda x: isinstance(x, float) or isinstance(x, int))
 resFgroupB = groupB["Результат_F"].apply(lambda x: isinstance(x, float) or isinstance(x, int))
 
-res = pd.DataFrame(columns=["CaseID_A", "CaseID_B", "Age_A", "Age_B", "Gender", "Result_D_A", "Result_D_B", "Result_F_A", "Result_F_B"])
+res = pd.DataFrame(columns=["CaseID_A", "CaseID_B", "Age_A", "Age_B", "Gender", "Result_D_A", "Result_D_B", "Result_F_A", "Result_F_B", "Vac_A", "Vac_B"])
 
 for indexA, rowA in groupA.iterrows():
-    print(indexA)
+    if indexA % 100 == 0: print(indexA)
     for indexB, rowB in groupB.iterrows():
         if (rowA["Gender"] == rowB["Gender"] and
                 abs(rowA["Age"] - rowB["Age"]) <= 3 and
@@ -28,6 +26,7 @@ for indexA, rowA in groupA.iterrows():
             res = res._append({"CaseID_A": rowA["CaseID"], "CaseID_B": rowB["CaseID"],
                                "Age_A": rowA["Age"], "Age_B": rowB["Age"], "Gender": rowA["Gender"],
                                "Result_D_A": rowA["Результат_D"], "Result_D_B": rowB["Результат_D"],
-                               "Result_F_A": rowA["Результат_F"], "Result_F_B": rowB["Результат_F"]}, ignore_index=True)
+                               "Result_F_A": rowA["Результат_F"], "Result_F_B": rowB["Результат_F"],
+                               "Vac_A": rowA["Vac"], "Vac_B": rowB["Vac"]}, ignore_index=True)
 
-res.to_excel('.\\data\\результаты.xlsx', index=False)
+res.to_excel('.\\data\\results_task3.xlsx', index=False)
