@@ -18,6 +18,7 @@ for indexA, rowA in groupA.iterrows():
     if indexA % 100 == 0: print(indexA)
     for indexB, rowB in groupB.iterrows():
         if (rowA["Gender"] == rowB["Gender"] and
+                rowA["Vac"] == rowB["Vac"] and
                 abs(rowA["Age"] - rowB["Age"]) <= 3 and
                 resDgroupA[indexA] and resDgroupB[indexB] and
                 abs(rowA["Результат_D"] - rowB["Результат_D"]) / rowA["Результат_D"] <= 0.1 and
@@ -29,4 +30,4 @@ for indexA, rowA in groupA.iterrows():
                                "Result_F_A": rowA["Результат_F"], "Result_F_B": rowB["Результат_F"],
                                "Vac_A": rowA["Vac"], "Vac_B": rowB["Vac"]}, ignore_index=True)
 
-res.to_excel('.\\data\\results_task3.xlsx', index=False)
+res.to_excel('.\\data\\results_task3_with_similar_vac.xlsx', index=False)
