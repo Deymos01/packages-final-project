@@ -1,25 +1,14 @@
 import pandas as pd
+from scipy.stats import ttest_ind
 
-dataframe = pd.read_excel('.\\data\\финальные_данные.xlsx')
+dataframe_groupA = pd.read_excel('.\\groups\\group_A.xlsx')  # среднетяжелое течение болезни
+dataframe_groupB = pd.read_excel('.\\groups\\group_B.xlsx')  # тяжелое течение болезни
 
-boolArr = dataframe["Ther"].str.contains("среднетяжелое течение")
-groupA = dataframe[boolArr]
-groupB = dataframe[~boolArr]
+# dataframe_groupA_incorrect_data = pd.read_excel('.\\groups\\group_A_undefined_data.xlsx')
+# dataframe_groupB_incorrect_data = pd.read_excel('.\\groups\\group_B_undefined_data.xlsx')
 
-# Функция для проверки возможности преобразования в float
-def can_convert_to_float(value):
-    try:
-        if isinstance(value, str):
-            value = value.replace('>', '').replace('<', '').strip()
-        float(value)
-        return True
-    except ValueError:
-        return False
+ageA = dataframe_groupA["Age"]
+ageB = dataframe_groupB["Age"]
 
-# Фильтрация строк
-groupA_filtered = groupA[groupA["Результат_D"].apply(can_convert_to_float)]
-groupB_filtered = groupB[groupB["Результат_D"].apply(can_convert_to_float)]
-
-# Преобразование столбца "Результат_D" в float
-groupA_filtered["Результат_D"] = groupA_filtered["Результат_D"].apply(lambda x: float(x.replace('>', '').replace('<', '').strip()))
-groupB_filtered["Результат_D"] = groupB_filtered["Результат_D"].apply(lambda x: float(x.replace('>', '').replace('<', '').strip()))
+t_stat_age, p_val_age = ttest_ind(ageA, ageB, equal_var=False)
+print(f"Age: t-statistic = {t_stat_age}, p-value = {p_val_age}")

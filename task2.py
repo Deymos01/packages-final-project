@@ -1,3 +1,5 @@
+import pandas as pd
+
 # 2
 # data = pd.read_excel('data\финальные_данные.xlsx')
 # dataVac = data[(data['Vac'].notnull()) & (data['Vac'] != 'Нет')]
@@ -9,13 +11,13 @@
 
 data = pd.read_excel('data\\финальные_данные.xlsx')
 dataVac = pd.read_excel('data2\\people_who_was_vaccinated.xlsx')
-noInfo =  pd.read_excel('data2\\people_no_info.xlsx')
-dataWithoutVac =  pd.read_excel('data2\\people_who_was`t_vaccinated.xlsx')
+noInfo = pd.read_excel('data2\\people_no_info.xlsx')
+dataWithoutVac = pd.read_excel('data2\\people_who_was`t_vaccinated.xlsx')
 
 allPeople = round(data.shape[0])
-vaccinated = round(dataVac.shape[0] * 100/allPeople)
-notVaccinated = round(dataWithoutVac.shape[0] * 100/allPeople)
-noInformation = round(noInfo.shape[0] * 100/allPeople)
+vaccinated = round(dataVac.shape[0] * 100 / allPeople)
+notVaccinated = round(dataWithoutVac.shape[0] * 100 / allPeople)
+noInformation = round(noInfo.shape[0] * 100 / allPeople)
 
 data = {
     'vaccinated': ['%', 'муж', 'жен', 'выжило', 'не выжило', '% выживших'],
@@ -25,12 +27,12 @@ data = {
 df = pd.DataFrame(data)
 df.index = ['%', 'муж', 'жен', 'выжило', 'не выжило', '% выживших']
 
-#pull %
+# pull %
 df.at['%', 'vaccinated'] = vaccinated
 df.at['%', 'not vaccinated'] = notVaccinated
 df.at['%', 'no info'] = noInformation
 
-#pull муж
+# pull муж
 vaccinated = dataVac['Gender'].value_counts();
 vaccinated = vaccinated.get('м')
 notVaccinated = dataWithoutVac['Gender'].value_counts();
@@ -77,13 +79,13 @@ df.at['не выжило', 'no info'] = noInformation
 # pull % выживших
 vaccinated = dataVac['Outcome'].value_counts();
 sumVaccinated = vaccinated.get('Умер') + vaccinated.get('Выписан')
-vaccinated = round(vaccinated.get('Выписан') *100 / sumVaccinated)
+vaccinated = round(vaccinated.get('Выписан') * 100 / sumVaccinated)
 notVaccinated = dataWithoutVac['Outcome'].value_counts();
 sumNotVaccinated = notVaccinated.get('Умер') + notVaccinated.get('Выписан')
-notVaccinated = round(notVaccinated.get('Выписан') *100 / sumNotVaccinated)
+notVaccinated = round(notVaccinated.get('Выписан') * 100 / sumNotVaccinated)
 noInformation = noInfo['Outcome'].value_counts();
 sumNoInformation = noInformation.get('Умер') + noInformation.get('Выписан')
-noInformation = round(noInformation.get('Выписан') *100 / sumNoInformation)
+noInformation = round(noInformation.get('Выписан') * 100 / sumNoInformation)
 df.at['% выживших', 'vaccinated'] = vaccinated
 df.at['% выживших', 'not vaccinated'] = notVaccinated
 df.at['% выживших', 'no info'] = noInformation
