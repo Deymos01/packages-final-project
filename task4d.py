@@ -11,3 +11,5 @@ print('Result_D : t = ', t_stat, ' p = ', p_stat)
 t_stat, p_stat = stats.ttest_ind(groupA['Result_F'], groupB['Result_F'], equal_var=True, nan_policy='omit')
 print('Result_F : t = ', t_stat, ' p = ', p_stat)
 
+print(groupA['Age'].describe())
+print(groupB['Age'].describe())
