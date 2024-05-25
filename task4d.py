@@ -13,3 +13,4 @@ print('Result_F : t = ', t_stat, ' p = ', p_stat)
 
 print(groupA['Age'].describe())
 print(groupB['Age'].describe())
+
