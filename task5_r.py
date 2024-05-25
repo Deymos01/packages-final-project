@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.ticker import FuncFormatter
 
-dataframe_groupA = pd.read_excel('.\\groups\\group_A.xlsx')  # среднетяжелое течение болезни
-dataframe_groupB = pd.read_excel('.\\groups\\group_B.xlsx')  # тяжелое течение болезни
+dataframe_groupA = pd.read_excel('.\\groups\\isMono_false.xlsx')  # среднетяжелое течение болезни
+dataframe_groupB = pd.read_excel('.\\groups\\isMono_true.xlsx')  # тяжелое течение болезни
 
-dataframe_groupA["Group"] = "Moderate"
-dataframe_groupB["Group"] = "Severe"
+dataframe_groupA["Group"] = "Without medicine"
+dataframe_groupB["Group"] = "With medicine"
 dataframe = pd.concat([dataframe_groupA, dataframe_groupB], ignore_index=True)
 
 # Сравнение количества пациентов в группах A и B (Dead|Alive)
