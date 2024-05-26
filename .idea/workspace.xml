@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ac3fff-6d5f-486c-a42d-627ff329427f" name="Changes" comment="" />
+    <list default="true" id="24ac3fff-6d5f-486c-a42d-627ff329427f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,30 +73,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.analyze.executor": "Run",
-    "Python.berni.executor": "Run",
-    "Python.first.executor": "Run",
-    "Python.task3_d.executor": "Run",
-    "Python.task4_r.executor": "Run",
-    "Python.task4d.executor": "Run",
-    "Python.task5_r.executor": "Run",
-    "Python.task6_d.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/PycharmProjects/gitrep/packages-final-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyScientificConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.analyze.executor&quot;: &quot;Run&quot;,
+    &quot;Python.berni.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4_r.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task5_r.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task6_d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/gitrep/packages-final-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyScientificConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.task6_d">
     <configuration name="task4d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="packages-final-project" />
@@ -194,7 +196,8 @@
       <workItem from="1716660144855" duration="7135000" />
       <workItem from="1716668080355" duration="577000" />
       <workItem from="1716668682652" duration="2477000" />
-      <workItem from="1716710661249" duration="19002000" />
+      <workItem from="1716710661249" duration="19174000" />
+      <workItem from="1716760891927" duration="387000" />
     </task>
     <servers />
   </component>
