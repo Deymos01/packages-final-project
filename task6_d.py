@@ -101,7 +101,7 @@ isalive = pd.read_excel('data\\isalive.xlsx')
 isalive['Outcome'] = (isalive['Outcome'] == 'Выписан')
 severity_factor = isalive.groupby('Ther')['Outcome'].mean() * 100
 severity_factor = severity_factor.sort_index(ascending=False)
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(14, 8))
 sev = ['ИНФ (среднетяжелое течение) с терапией и ЛП',
 'ИНФ (среднетяжелое течение) с терапией без ЛП',
 'ИНФ (среднетяжелое течение) с ЛП без терапии',
