@@ -29,7 +29,7 @@ plt.xticks(range(min(noMono['Age']), max(noMono['Age']) + 1, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.legend()
 plt.show()
-
+plt.savefig('Age distribution according to outcome.png')
 
 
 
@@ -53,6 +53,8 @@ plt.xticks(rotation=0)  # Поворот меток по оси x для удо�
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
+plt.savefig('Impact mono for vaccinated')
+
 mono_factor = data_novac.groupby('isMono')['Outcome'].mean() * 100
 plt.figure(figsize=(10, 6))
 mono_factor.plot(kind='bar', color=['blue', 'green'])
@@ -63,6 +65,7 @@ plt.xticks(rotation=0)  # Поворот меток по оси x для удо�
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
+plt.savefig('Impact mono for not vaccinated')
 
 
 
@@ -84,6 +87,7 @@ plt.xticks(gender_factor.index, ['Female', 'Male'])
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
+plt.savefig('Impact gender for survival rate')
 print(gender_factor)
 
 
@@ -127,6 +131,7 @@ plt.xticks(sev, ['T&LP', 'T', 'LP', 'nothing', 'T&LP', 'T', 'nothing', 'T', 'not
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
+plt.savefig('Impact severity for survival rate')
 
 
 
