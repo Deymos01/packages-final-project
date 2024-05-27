@@ -1,0 +1,66 @@
+Index: analyze.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import numpy as np\r\nimport pandas as pd\r\n\r\nbDWithoutMono = pd.read_excel(r'.\\data\\БД_без_моно_full.xlsx')\r\nbDMono = pd.read_excel(r'data\\БД_с_моно_full.xlsx')\r\n\r\n# add column about mono\r\nbDWithoutMono['isMono'] = False\r\nbDMono['isMono'] = True\r\n# rename\r\nbDMono.rename(columns={\"Vacin\": \"Vac\"}, inplace=True)\r\n# Concatenate the DataFrames by rows\r\nconcatenated_data = pd.concat([bDWithoutMono, bDMono])\r\n# Найдем строки с отсутствующими значениями в столбце 'CaseID'\r\nmissing_caseid_mask = concatenated_data['CaseID'].isna()\r\n# Присвоим уникальные идентификаторы для отсутствующих значений\r\nconcatenated_data.loc[missing_caseid_mask, 'CaseID'] = range(390078, missing_caseid_mask.sum() + 390078)\r\n# Сортировка по 'CaseID' и 'Date' так, чтобы самые свежие даты были первыми\r\nconcatenated_data = concatenated_data.sort_values(by='Start')\r\n# Удаление дубликатов, оставляя только запись с самой свежей датой для каждого 'CaseID'\r\nunique_data = concatenated_data.drop_duplicates(subset='CaseID', keep='first')\r\n# save\r\nunique_data.to_excel(r'Объединенные_данные.xlsx', index=False)\r\nmergedData = pd.read_excel('Объединенные_данные.xlsx')\r\nd1 = pd.read_excel(r'.\\data\\Показатель_D 1.xlsx')\r\nf1 = pd.read_excel(r'.\\data\\Показатель_F 1.xlsx')\r\nd_stat = d1.drop_duplicates(subset=\"CaseID\")\r\n\r\nf_stat = (f1.sort_values([\"Дата взятия\"])).drop_duplicates(subset=\"CaseID\")\r\n\r\nf_stat.rename(columns={\"Результат\": \"Результат_F\"}, inplace=True)\r\nunion_results_df = pd.merge(d_stat[[\"CaseID\", \"Результат_D\"]], f_stat[[\"CaseID\", \"Результат_F\"]], on=\"CaseID\", how=\"inner\")\r\nunion_result = pd.merge(mergedData, union_results_df, on=\"CaseID\", how=\"inner\")\r\nunion_result.to_excel(r'финальные_данные.xlsx', index=False)\r\n# (pd.concat([union_result.loc[union_result[\"Outcome\"] == \"Умер\"], union_result.loc[union_result[\"Outcome\"] == \"Выписан\"]])).to_excel(\"isalive.xlsx\")\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/analyze.py b/analyze.py
+--- a/analyze.py	(revision 07ff2cb1cae219dba268bbb3b6ead06ec4831589)
++++ b/analyze.py	(date 1716128875563)
+@@ -1,8 +1,8 @@
+ import numpy as np
+ import pandas as pd
+ 
+-bDWithoutMono = pd.read_excel(r'.\data\БД_без_моно_full.xlsx')
+-bDMono = pd.read_excel(r'data\БД_с_моно_full.xlsx')
++bDWithoutMono = pd.read_excel('.\data\БД_без_моно_full.xlsx')
++bDMono = pd.read_excel('.\data\БД_с_моно_full.xlsx')
+ 
+ # add column about mono
+ bDWithoutMono['isMono'] = False
+@@ -20,10 +20,10 @@
+ # Удаление дубликатов, оставляя только запись с самой свежей датой для каждого 'CaseID'
+ unique_data = concatenated_data.drop_duplicates(subset='CaseID', keep='first')
+ # save
+-unique_data.to_excel(r'Объединенные_данные.xlsx', index=False)
+-mergedData = pd.read_excel('Объединенные_данные.xlsx')
+-d1 = pd.read_excel(r'.\data\Показатель_D 1.xlsx')
+-f1 = pd.read_excel(r'.\data\Показатель_F 1.xlsx')
++unique_data.to_excel('.\data\Объединенные_данные.xlsx', index=False)
++mergedData = pd.read_excel('.\data\Объединенные_данные.xlsx')
++d1 = pd.read_excel('.\data\Показатель_D 1.xlsx')
++f1 = pd.read_excel('.\data\Показатель_F 1.xlsx')
+ d_stat = d1.drop_duplicates(subset="CaseID")
+ 
+ f_stat = (f1.sort_values(["Дата взятия"])).drop_duplicates(subset="CaseID")
+@@ -31,6 +31,8 @@
+ f_stat.rename(columns={"Результат": "Результат_F"}, inplace=True)
+ union_results_df = pd.merge(d_stat[["CaseID", "Результат_D"]], f_stat[["CaseID", "Результат_F"]], on="CaseID", how="inner")
+ union_result = pd.merge(mergedData, union_results_df, on="CaseID", how="inner")
+-union_result.to_excel(r'финальные_данные.xlsx', index=False)
+-# (pd.concat([union_result.loc[union_result["Outcome"] == "Умер"], union_result.loc[union_result["Outcome"] == "Выписан"]])).to_excel("isalive.xlsx")
++union_result.to_excel('.\data\финальные_данные.xlsx', index=False)
++(pd.concat([union_result.loc[union_result["Outcome"] == "Умер"], union_result.loc[union_result["Outcome"] == "Выписан"]])).to_excel(".\data\isalive.xlsx")
+ 
++
++print("Done!")
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.10\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 07ff2cb1cae219dba268bbb3b6ead06ec4831589)
++++ b/.idea/misc.xml	(date 1716128451858)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.10" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
