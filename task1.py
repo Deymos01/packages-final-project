@@ -6,8 +6,8 @@ bDMono = pd.read_excel('data\БД_с_моно_full.xlsx')
 # add column about mono
 bDWithoutMono['isMono'] = False
 bDMono['isMono'] = True
-# rename
 bDMono.rename(columns={"Vacin": "Vac"}, inplace=True)
+
 # Concatenate the DataFrames by rows
 concatenated_data = pd.concat([bDWithoutMono, bDMono])
 # Найдем строки с отсутствующими значениями в столбце 'CaseID'

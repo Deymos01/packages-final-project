@@ -9,7 +9,6 @@ data = pd.read_excel('.\\data\\финальные_данные.xlsx')
 data['Start'] = pd.to_datetime(data['Start']).dt.day + 30 * pd.to_datetime(data['Start']).dt.month + 365 * pd.to_datetime(data['Start']).dt.year
 data['End'] = pd.to_datetime(data['End']).dt.day + 30 * pd.to_datetime(data['End']).dt.month + 365 * pd.to_datetime(data['End']).dt.year
 print(data)
-# Вычисление разностей
 data['Difference'] = data['End'] - data['Start']
 
 # Сортировка разностей
