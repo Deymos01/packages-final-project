@@ -29,7 +29,7 @@ plt.xticks(range(min(noMono['Age']), max(noMono['Age']) + 1, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.legend()
 plt.show()
-plt.savefig('Age distribution according to outcome.png')
+# plt.savefig('Age distribution according to outcome.png')
 
 
 
@@ -53,7 +53,7 @@ plt.xticks(rotation=0)  # Поворот меток по оси x для удо�
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
-plt.savefig('Impact mono for vaccinated')
+# plt.savefig('Impact mono for vaccinated')
 
 mono_factor = data_novac.groupby('isMono')['Outcome'].mean() * 100
 plt.figure(figsize=(10, 6))
@@ -65,7 +65,7 @@ plt.xticks(rotation=0)  # Поворот меток по оси x для удо�
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
-plt.savefig('Impact mono for not vaccinated')
+# plt.savefig('Impact mono for not vaccinated')
 
 
 
@@ -87,7 +87,7 @@ plt.xticks(gender_factor.index, ['Female', 'Male'])
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
-plt.savefig('Impact gender for survival rate')
+# plt.savefig('Impact gender for survival rate')
 print(gender_factor)
 
 
@@ -131,11 +131,62 @@ plt.xticks(sev, ['T&LP', 'T', 'LP', 'nothing', 'T&LP', 'T', 'nothing', 'T', 'not
 plt.yticks(range(0, 101, 10))
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
-plt.savefig('Impact severity for survival rate')
+# plt.savefig('Impact severity for survival rate')
 
 
 
 
 
 
+df_df = pd.read_excel('groups\\group_A.xlsx')
+df_df = pd.concat([df_df, pd.read_excel('groups\\group_B.xlsx')])
+df_df['Outcome'] = (df_df['Outcome'] == 'Выписан')
+values = [0]*4
+tmp = df_df.loc[df_df['Result_D'] < 400]
+values[0] = tmp['Outcome'].mean()*100
+tmp = df_df.loc[df_df['Result_D'] < 1000]
+tmp = tmp.loc[tmp['Result_D'] >= 400]
+values[1] = tmp['Outcome'].mean()*100
+tmp = df_df.loc[df_df['Result_D'] < 3000]
+tmp = tmp.loc[tmp['Result_D'] >= 1000]
+values[2] = tmp['Outcome'].mean()*100
+tmp = df_df.loc[df_df['Result_D'] >= 3000]
+values[3] = tmp['Outcome'].mean()*100
+plt.figure(figsize=(10, 6))
+# gender_factor.plot(kind='bar', color=['blue', 'green'])
+plt.bar(['< 400', '< 1000', '< 3000', ' >= 3000'], values, color=['blue', 'green', 'red', 'orange'])
+plt.xlabel('Result_D')
+plt.ylabel('Survival Rate (%)')
+plt.title('Impact result_D for survival rate')
+# plt.xticks(gender_factor.index, ['Female', 'Male'])
+plt.yticks(range(0, 101, 10))
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.savefig('Impact result_D for survival rate')
+# plt.show()
 
+
+values = [0]*3
+tmp = df_df.loc[df_df['Result_F'] < 400]
+values[0] = tmp['Outcome'].mean()*100
+tmp = df_df.loc[df_df['Result_F'] < 1000]
+print(tmp)
+tmp = tmp.loc[tmp['Result_F'] >= 400]
+values[1] = tmp['Outcome'].mean()*100
+tmp = df_df.loc[df_df['Result_F'] < 3000]
+print(tmp)
+tmp = tmp.loc[tmp['Result_F'] >= 1000]
+values[2] = tmp['Outcome'].mean()*100
+# tmp = df_df.loc[df_df['Result_F'] >= 3000]
+# print(tmp)
+# values[3] = tmp['Outcome'].mean()*100
+plt.figure(figsize=(10, 6))
+# gender_factor.plot(kind='bar', color=['blue', 'green'])
+plt.bar(['< 400', '< 1000', '< 3000'], values, color=['blue', 'green', 'red'])
+plt.xlabel('Result_F')
+plt.ylabel('Survival Rate (%)')
+plt.title('Impact result_F for survival rate')
+# plt.xticks(gender_factor.index, ['Female', 'Male'])
+plt.yticks(range(0, 101, 10))
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.savefig('Impact result_F for survival rate')
+# plt.show()
