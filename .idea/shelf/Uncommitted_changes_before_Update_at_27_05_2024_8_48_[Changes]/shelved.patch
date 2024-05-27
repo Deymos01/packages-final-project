@@ -1,0 +1,329 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"24ac3fff-6d5f-486c-a42d-627ff329427f\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/data_visualization/project.pptx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/data_visualization/project.pptx\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;HikkMind&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"5\" />\r\n    <option name=\"recentBranches\">\r\n      <RecentBranches>\r\n        <option name=\"branchesForRepo\">\r\n          <list>\r\n            <RecentBranchesForRepo>\r\n              <option name=\"branches\">\r\n                <list>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"main\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1716761517\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"den\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1716661209\" />\r\n                  </RecentBranch>\r\n                </list>\r\n              </option>\r\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\r\n            </RecentBranchesForRepo>\r\n          </list>\r\n        </option>\r\n      </RecentBranches>\r\n    </option>\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Deymos01/packages-final-project.git&quot;,\r\n    &quot;accountId&quot;: &quot;360e7b5d-3d38-44bf-8073-af84d1bf1e64&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ggojIwswJISr4HOMiScKah6ug6\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python.analyze.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.berni.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.first.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.task3_d.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.task4_r.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.task4d.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.task5_r.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.task6_d.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.test.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/gitrep/packages-final-project&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;PyScientificConfigurable&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Python.task6_d\">\r\n    <configuration name=\"task4d\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"packages-final-project\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/task4d.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"task5_r\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"packages-final-project\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/task5_r.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"task6_d\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"packages-final-project\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/task6_d.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.task6_d\" />\r\n        <item itemvalue=\"Python.task4d\" />\r\n        <item itemvalue=\"Python.task5_r\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241\" />\r\n        <option value=\"bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"24ac3fff-6d5f-486c-a42d-627ff329427f\" name=\"Changes\" comment=\"\" />\r\n      <created>1716128714274</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1716128714274</updated>\r\n      <workItem from=\"1716128715367\" duration=\"16691000\" />\r\n      <workItem from=\"1716364741536\" duration=\"3949000\" />\r\n      <workItem from=\"1716660144855\" duration=\"7135000\" />\r\n      <workItem from=\"1716668080355\" duration=\"577000\" />\r\n      <workItem from=\"1716668682652\" duration=\"2477000\" />\r\n      <workItem from=\"1716710661249\" duration=\"19174000\" />\r\n      <workItem from=\"1716760891927\" duration=\"387000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$task4_r.coverage\" NAME=\"task4_r Coverage Results\" MODIFIED=\"1716302335421\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$first.coverage\" NAME=\"first Coverage Results\" MODIFIED=\"1716555688051\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/../../../Downloads\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$test.coverage\" NAME=\"test Coverage Results\" MODIFIED=\"1716304369532\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$task4d.coverage\" NAME=\"task4d Coverage Results\" MODIFIED=\"1716668891068\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$task5_r.coverage\" NAME=\"task5_r Coverage Results\" MODIFIED=\"1716660730573\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$berni.coverage\" NAME=\"berni Coverage Results\" MODIFIED=\"1716754291863\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/../../../University/Пакеты/Python\" />\r\n    <SUITE FILE_PATH=\"coverage/packages_final_project$task6_d.coverage\" NAME=\"task6_d Coverage Results\" MODIFIED=\"1716761399176\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$analyze.coverage\" NAME=\"analyze Coverage Results\" MODIFIED=\"1716553006413\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$task6_d.coverage\" NAME=\"task6_d Coverage Results\" MODIFIED=\"1716759882714\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/analyze_py$task3_d.coverage\" NAME=\"task3_d Coverage Results\" MODIFIED=\"1716138681411\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 688fb4ec496f01d2de52d11c748f2c65391383dd)
++++ b/.idea/workspace.xml	(date 1716788687242)
+@@ -5,8 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="24ac3fff-6d5f-486c-a42d-627ff329427f" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/data_visualization/project.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualization/project.pptx" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/data_visualization/Impact result_D for survival rate.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/data_visualization/Impact result_F for survival rate.png" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,7 +45,7 @@
+                 <list>
+                   <RecentBranch>
+                     <option name="branchName" value="main" />
+-                    <option name="lastUsedInstant" value="1716761517" />
++                    <option name="lastUsedInstant" value="1716788652" />
+                   </RecentBranch>
+                   <RecentBranch>
+                     <option name="branchName" value="den" />
+@@ -212,9 +212,9 @@
+     <SUITE FILE_PATH="coverage/analyze_py$task4d.coverage" NAME="task4d Coverage Results" MODIFIED="1716668891068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/analyze_py$task5_r.coverage" NAME="task5_r Coverage Results" MODIFIED="1716660730573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/analyze_py$berni.coverage" NAME="berni Coverage Results" MODIFIED="1716754291863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../University/Пакеты/Python" />
+-    <SUITE FILE_PATH="coverage/packages_final_project$task6_d.coverage" NAME="task6_d Coverage Results" MODIFIED="1716761399176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/analyze_py$analyze.coverage" NAME="analyze Coverage Results" MODIFIED="1716553006413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/analyze_py$task6_d.coverage" NAME="task6_d Coverage Results" MODIFIED="1716759882714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/packages_final_project$task6_d.coverage" NAME="task6_d Coverage Results" MODIFIED="1716788552988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/analyze_py$task3_d.coverage" NAME="task3_d Coverage Results" MODIFIED="1716138681411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: task3_r.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pandas as pd\r\n\r\ndataframe = pd.read_excel('.\\\\data\\\\финальные_данные.xlsx')\r\ngroupA = pd.read_excel('.\\\\groups\\\\isMono_false.xlsx')\r\ngroupB = pd.read_excel('.\\\\groups\\\\isMono_true.xlsx')\r\n\r\npattern1 = r'.*крайне тяжелое течение.*'\r\npattern2 = r'.*среднетяжелое течение.*'\r\npattern3 = r'.*тяжелое течение.*'\r\n\r\nmaskA_1 = groupA[\"Ther\"].str.contains(r'.*крайне тяжелое течение.*', na=False, regex=True)\r\nmaskA_2 = groupA[\"Ther\"].str.contains(r'.*тяжелое течение.*', na=False, regex=True)\r\nmaskA_3 = groupA[\"Ther\"].str.contains(r'.*среднетяжелое течение.*', na=False, regex=True)\r\ngroupA.loc[maskA_1, \"Ther\"] = 1\r\ngroupA.loc[maskA_2, \"Ther\"] = 2\r\ngroupA.loc[maskA_3, \"Ther\"] = 3\r\n\r\nmaskB_1 = groupB[\"Ther\"].str.contains(r'.*крайне тяжелое течение.*', na=False, regex=True)\r\nmaskB_2 = groupB[\"Ther\"].str.contains(r'.*тяжелое течение.*', na=False, regex=True)\r\nmaskB_3 = groupB[\"Ther\"].str.contains(r'.*среднетяжелое течение.*', na=False, regex=True)\r\ngroupB.loc[maskB_1, \"Ther\"] = 1\r\ngroupB.loc[maskB_2, \"Ther\"] = 2\r\ngroupB.loc[maskB_3, \"Ther\"] = 3\r\n\r\nres = pd.DataFrame(columns=[\"CaseID_A\", \"CaseID_B\", \"Age_A\", \"Age_B\", \"Gender\", \"Ther_A\", \"Ther_B\", \"Outcome_A\", \"Outcome_B\", \"Result_D_A\", \"Result_D_B\", \"Result_F_A\", \"Result_F_B\", \"Vac_A\", \"Vac_B\"])\r\n\r\nther = {\r\n    1: \"крайне тяжелое течение\",\r\n    2: \"тяжелое течение\",\r\n    3: \"среднетяжелое течение\"\r\n}\r\n\r\nfor indexA, rowA in groupA.iterrows():\r\n    if indexA % 100 == 0: print(indexA)\r\n    for indexB, rowB in groupB.iterrows():\r\n        if (rowA[\"Gender\"] == rowB[\"Gender\"] and\r\n                abs(rowA[\"Age\"] - rowB[\"Age\"]) <= 3 and\r\n                abs(rowA[\"Результат_D\"] - rowB[\"Результат_D\"]) / rowA[\"Результат_D\"] <= 0.1 and\r\n                abs(rowA[\"Результат_F\"] - rowB[\"Результат_F\"]) / rowA[\"Результат_F\"] <= 0.1 and\r\n                ((rowA[\"Ther\"] == 1 or rowA[\"Ther\"] == 2) and (rowB[\"Ther\"] == 1 or rowB[\"Ther\"] == 2) or\r\n                 rowA[\"Ther\"] == 3 and rowB[\"Ther\"] == 3)):\r\n            res = res._append({\"CaseID_A\": rowA[\"CaseID\"],\r\n                               \"CaseID_B\": rowB[\"CaseID\"],\r\n                               \"Age_A\": rowA[\"Age\"],\r\n                               \"Age_B\": rowB[\"Age\"],\r\n                               \"Gender\": rowA[\"Gender\"],\r\n                               \"Ther_A\": ther[rowA[\"Ther\"]],\r\n                               \"Ther_B\": ther[rowB[\"Ther\"]],\r\n                               \"Outcome_A\": rowA[\"Outcome\"],\r\n                               \"Outcome_B\": rowB[\"Outcome\"],\r\n                               \"Result_D_A\": rowA[\"Результат_D\"],\r\n                               \"Result_D_B\": rowB[\"Результат_D\"],\r\n                               \"Result_F_A\": rowA[\"Результат_F\"],\r\n                               \"Result_F_B\": rowB[\"Результат_F\"],\r\n                               \"Vac_A\": rowA[\"Vac\"],\r\n                               \"Vac_B\": rowB[\"Vac\"]}, ignore_index=True)\r\n\r\nres.to_excel('.\\\\data\\\\results_task3.xlsx', index=False)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/task3_r.py b/task3_r.py
+--- a/task3_r.py	(revision 688fb4ec496f01d2de52d11c748f2c65391383dd)
++++ b/task3_r.py	(date 1716788826147)
+@@ -1,58 +1,121 @@
+ import pandas as pd
+ 
+-dataframe = pd.read_excel('.\\data\\финальные_данные.xlsx')
+-groupA = pd.read_excel('.\\groups\\isMono_false.xlsx')
+-groupB = pd.read_excel('.\\groups\\isMono_true.xlsx')
+-
+-pattern1 = r'.*крайне тяжелое течение.*'
+-pattern2 = r'.*среднетяжелое течение.*'
+-pattern3 = r'.*тяжелое течение.*'
++# dataframe = pd.read_excel('.\\data\\финальные_данные.xlsx')
++# groupA = pd.read_excel('.\\groups\\isMono_false.xlsx')
++# groupB = pd.read_excel('.\\groups\\isMono_true.xlsx')
++#
++# pattern1 = r'.*крайне тяжелое течение.*'
++# pattern2 = r'.*среднетяжелое течение.*'
++# pattern3 = r'.*тяжелое течение.*'
++#
++# maskA_1 = groupA["Ther"].str.contains(r'.*крайне тяжелое течение.*', na=False, regex=True)
++# maskA_2 = groupA["Ther"].str.contains(r'.*тяжелое течение.*', na=False, regex=True)
++# maskA_3 = groupA["Ther"].str.contains(r'.*среднетяжелое течение.*', na=False, regex=True)
++# groupA.loc[maskA_1, "Ther"] = 1
++# groupA.loc[maskA_2, "Ther"] = 2
++# groupA.loc[maskA_3, "Ther"] = 3
++#
++# maskB_1 = groupB["Ther"].str.contains(r'.*крайне тяжелое течение.*', na=False, regex=True)
++# maskB_2 = groupB["Ther"].str.contains(r'.*тяжелое течение.*', na=False, regex=True)
++# maskB_3 = groupB["Ther"].str.contains(r'.*среднетяжелое течение.*', na=False, regex=True)
++# groupB.loc[maskB_1, "Ther"] = 1
++# groupB.loc[maskB_2, "Ther"] = 2
++# groupB.loc[maskB_3, "Ther"] = 3
++#
++# res = pd.DataFrame(columns=["CaseID_A", "CaseID_B", "Age_A", "Age_B", "Gender", "Ther_A", "Ther_B", "Outcome_A", "Outcome_B", "Result_D_A", "Result_D_B", "Result_F_A", "Result_F_B", "Vac_A", "Vac_B"])
++#
++# ther = {
++#     1: "крайне тяжелое течение",
++#     2: "тяжелое течение",
++#     3: "среднетяжелое течение"
++# }
++#
++# for indexA, rowA in groupA.iterrows():
++#     if indexA % 100 == 0: print(indexA)
++#     for indexB, rowB in groupB.iterrows():
++#         if (rowA["Gender"] == rowB["Gender"] and
++#                 abs(rowA["Age"] - rowB["Age"]) <= 3 and
++#                 abs(rowA["Результат_D"] - rowB["Результат_D"]) / rowA["Результат_D"] <= 0.1 and
++#                 abs(rowA["Результат_F"] - rowB["Результат_F"]) / rowA["Результат_F"] <= 0.1 and
++#                 ((rowA["Ther"] == 1 or rowA["Ther"] == 2) and (rowB["Ther"] == 1 or rowB["Ther"] == 2) or
++#                  rowA["Ther"] == 3 and rowB["Ther"] == 3)):
++#             res = res._append({"CaseID_A": rowA["CaseID"],
++#                                "CaseID_B": rowB["CaseID"],
++#                                "Age_A": rowA["Age"],
++#                                "Age_B": rowB["Age"],
++#                                "Gender": rowA["Gender"],
++#                                "Ther_A": ther[rowA["Ther"]],
++#                                "Ther_B": ther[rowB["Ther"]],
++#                                "Outcome_A": rowA["Outcome"],
++#                                "Outcome_B": rowB["Outcome"],
++#                                "Result_D_A": rowA["Результат_D"],
++#                                "Result_D_B": rowB["Результат_D"],
++#                                "Result_F_A": rowA["Результат_F"],
++#                                "Result_F_B": rowB["Результат_F"],
++#                                "Vac_A": rowA["Vac"],
++#                                "Vac_B": rowB["Vac"]}, ignore_index=True)
++#
++# res.to_excel('.\\data\\results_task3.xlsx', index=False)
++#table for 3
++#1 кол-во
++data = pd.read_excel('data\\results_task3.xlsx')
++dataTher = data['Ther_A'].value_counts();
++dataHard = dataTher.get('тяжелое течение')
++dataEasy = dataTher.get('среднетяжелое течение')
++#2 выж - мость
++dataAliveHardA = data[(data['Outcome_A'] == 'Выписан') & (data['Ther_A'] == 'тяжелое течение')]
++dataAliveHardB = data[(data['Outcome_B'] == 'Выписан') & (data['Ther_B'] == 'тяжелое течение')]
++dataDeathHardA = data[(data['Outcome_B'] == 'Умер') & (data['Ther_B'] == 'тяжелое течение')]
++dataDeathHardB = data[(data['Outcome_B'] == 'Умер') & (data['Ther_B'] == 'тяжелое течение')]
++countliveA = len(dataAliveHardA)/2
++countDeathА = len(dataDeathHardA)/2
++countliveB = len(dataAliveHardB)/2
++countDeathB = len(dataDeathHardB)/2
++pAleveHard = (countliveA + countliveB)/(countliveA + countliveB + countDeathА + countDeathB)
+ 
+-maskA_1 = groupA["Ther"].str.contains(r'.*крайне тяжелое течение.*', na=False, regex=True)
+-maskA_2 = groupA["Ther"].str.contains(r'.*тяжелое течение.*', na=False, regex=True)
+-maskA_3 = groupA["Ther"].str.contains(r'.*среднетяжелое течение.*', na=False, regex=True)
+-groupA.loc[maskA_1, "Ther"] = 1
+-groupA.loc[maskA_2, "Ther"] = 2
+-groupA.loc[maskA_3, "Ther"] = 3
++dataAliveHardA = data[(data['Outcome_A'] == 'Выписан') & (data['Ther_A'] == 'среднетяжелое течение')]
++dataAliveHardB = data[(data['Outcome_B'] == 'Выписан') & (data['Ther_B'] == 'среднетяжелое течение')]
++dataDeathHardA = data[(data['Outcome_B'] == 'Умер') & (data['Ther_B'] == 'среднетяжелое течение')]
++dataDeathHardB = data[(data['Outcome_B'] == 'Умер') & (data['Ther_B'] == 'среднетяжелое течение')]
++countliveA = len(dataAliveHardA)/2
++countDeathА = len(dataDeathHardA)/2
++countliveB = len(dataAliveHardB)/2
++countDeathB = len(dataDeathHardB)/2
++pAleveEasy = (countliveA + countliveB)/(countliveA + countliveB + countDeathА + countDeathB)
++#3 вакцинир -ны
++dataHardVac = data[(data['Vac_A'] == 'Нет') & (data['Ther_A'] == 'тяжелое течение') ].value_counts();
++dataEasyVac = data[(data['Vac_A'] == 'Нет') & (data['Ther_A'] == 'среднетяжелое течение')].value_counts();
++allDataCount = len(data)
++countHardV = len(dataHardVac)
++countEasyV = len(dataEasyVac)
++#4
++allDataCountVac = len(data[data['Vac_A'] != 'Нет'])
++dataAliveHardA = data[(data['Outcome_A'] == 'Выписан') & (data['Ther_A'] == 'тяжелое течение') & (data['Vac_A'] != 'Нет')]
++dataAliveEasyA = data[(data['Outcome_A'] == 'Выписан') & (data['Ther_A'] == 'среднетяжелое течение') & (data['Vac_A'] != 'Нет')]
++dataAliveHardB = data[(data['Outcome_B'] == 'Выписан') & (data['Ther_B'] == 'тяжелое течение') & (data['Vac_B'] != 'Нет')]
++dataAliveEasyB = data[(data['Outcome_B'] == 'Выписан') & (data['Ther_B'] == 'среднетяжелое течение') & (data['Vac_B'] != 'Нет')]
+ 
+-maskB_1 = groupB["Ther"].str.contains(r'.*крайне тяжелое течение.*', na=False, regex=True)
+-maskB_2 = groupB["Ther"].str.contains(r'.*тяжелое течение.*', na=False, regex=True)
+-maskB_3 = groupB["Ther"].str.contains(r'.*среднетяжелое течение.*', na=False, regex=True)
+-groupB.loc[maskB_1, "Ther"] = 1
+-groupB.loc[maskB_2, "Ther"] = 2
+-groupB.loc[maskB_3, "Ther"] = 3
++# Подсчет количества строк в датафреймах dataAliveHardA и dataAliveHardB
++countliveHard = (len(dataAliveHardA) + len(dataAliveHardB)) / 2
+ 
+-res = pd.DataFrame(columns=["CaseID_A", "CaseID_B", "Age_A", "Age_B", "Gender", "Ther_A", "Ther_B", "Outcome_A", "Outcome_B", "Result_D_A", "Result_D_B", "Result_F_A", "Result_F_B", "Vac_A", "Vac_B"])
++# Подсчет количества строк в датафреймах dataAliveEasyA и dataAliveEasyB
++countliveEasy = (len(dataAliveEasyA) + len(dataAliveEasyB)) / 2
+ 
+-ther = {
+-    1: "крайне тяжелое течение",
+-    2: "тяжелое течение",
+-    3: "среднетяжелое течение"
++table = {
++    'Среднетяжелое течение': [
++        round((dataEasy / (dataHard + dataEasy)) * 100),  # Процент среднетяжелых случаев
++        round(pAleveEasy * 100),  # Процент выписанных при среднетяжелом течении
++        round((countEasyV / allDataCount) * 100),  # Процент выписанных среднетяжелых от общего числа
++        round((countliveEasy / allDataCountVac) * 100)  # Процент выписанных среднетяжелых от Vac_A != 'Нет'
++    ],
++    'Тяжелое течение': [
++        round((dataHard / (dataHard + dataEasy)) * 100),  # Процент тяжелых случаев
++        round(pAleveHard * 100),  # Процент выписанных при тяжелом течении
++        round((countHardV / allDataCount) * 100),  # Процент выписанных тяжелых от общего числа
++        round((countliveHard / allDataCountVac) * 100)  # Процент выписанных тяжелых от Vac_A != 'Нет'
++    ]
+ }
+-
+-for indexA, rowA in groupA.iterrows():
+-    if indexA % 100 == 0: print(indexA)
+-    for indexB, rowB in groupB.iterrows():
+-        if (rowA["Gender"] == rowB["Gender"] and
+-                abs(rowA["Age"] - rowB["Age"]) <= 3 and
+-                abs(rowA["Результат_D"] - rowB["Результат_D"]) / rowA["Результат_D"] <= 0.1 and
+-                abs(rowA["Результат_F"] - rowB["Результат_F"]) / rowA["Результат_F"] <= 0.1 and
+-                ((rowA["Ther"] == 1 or rowA["Ther"] == 2) and (rowB["Ther"] == 1 or rowB["Ther"] == 2) or
+-                 rowA["Ther"] == 3 and rowB["Ther"] == 3)):
+-            res = res._append({"CaseID_A": rowA["CaseID"],
+-                               "CaseID_B": rowB["CaseID"],
+-                               "Age_A": rowA["Age"],
+-                               "Age_B": rowB["Age"],
+-                               "Gender": rowA["Gender"],
+-                               "Ther_A": ther[rowA["Ther"]],
+-                               "Ther_B": ther[rowB["Ther"]],
+-                               "Outcome_A": rowA["Outcome"],
+-                               "Outcome_B": rowB["Outcome"],
+-                               "Result_D_A": rowA["Результат_D"],
+-                               "Result_D_B": rowB["Результат_D"],
+-                               "Result_F_A": rowA["Результат_F"],
+-                               "Result_F_B": rowB["Результат_F"],
+-                               "Vac_A": rowA["Vac"],
+-                               "Vac_B": rowB["Vac"]}, ignore_index=True)
+-
+-res.to_excel('.\\data\\results_task3.xlsx', index=False)
++df = pd.DataFrame(table)
++df.index = ['колличество %','выживаемость %','вакцинированы %', 'выживаемость вакцинированных %']
++print(df)
++df.to_excel('data\\statisticFor3Task.xlsx')
+\ No newline at end of file
+Index: task2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/task2.py b/task2.py
+new file mode 100644
+--- /dev/null	(date 1716788826146)
++++ b/task2.py	(date 1716788826146)
+@@ -0,0 +1,93 @@
++import pandas as pd
++
++# 2
++# data = pd.read_excel('data\финальные_данные.xlsx')
++# dataVac = data[(data['Vac'].notnull()) & (data['Vac'] != 'Нет')]
++# dataVac.to_excel('data2\people_who_was_vaccinated.xlsx')
++# dataWithoutVac = data.loc[data['Vac'] == 'Нет']
++# dataWithoutVac.to_excel('data2\people_who_was`t_vaccinated.xlsx')
++# noInfo = data[pd.isnull(data['Vac'])]
++# noInfo.to_excel('data2\people_no_info.xlsx')
++
++data = pd.read_excel('data\\финальные_данные.xlsx')
++dataVac = pd.read_excel('data2\\people_who_was_vaccinated.xlsx')
++noInfo = pd.read_excel('data2\\people_no_info.xlsx')
++dataWithoutVac = pd.read_excel('data2\\people_who_was`t_vaccinated.xlsx')
++
++allPeople = round(data.shape[0])
++vaccinated = round(dataVac.shape[0] * 100 / allPeople)
++notVaccinated = round(dataWithoutVac.shape[0] * 100 / allPeople)
++noInformation = round(noInfo.shape[0] * 100 / allPeople)
++
++data = {
++    'vaccinated': ['%', 'муж', 'жен', 'выжило', 'не выжило', '% выживших'],
++    'not vaccinated': ['%', 'муж', 'жен', 'выжило', 'не выжило', '% выживших'],
++    'no info': ['%', 'муж', 'жен', 'выжило', 'не выжило', '% выживших']
++}
++df = pd.DataFrame(data)
++df.index = ['%', 'муж', 'жен', 'выжило', 'не выжило', '% выживших']
++
++# pull %
++df.at['%', 'vaccinated'] = vaccinated
++df.at['%', 'not vaccinated'] = notVaccinated
++df.at['%', 'no info'] = noInformation
++
++# pull муж
++vaccinated = dataVac['Gender'].value_counts();
++vaccinated = vaccinated.get('м')
++notVaccinated = dataWithoutVac['Gender'].value_counts();
++notVaccinated = notVaccinated.get('м')
++noInformation = noInfo['Gender'].value_counts();
++noInformation = noInformation.get('м')
++df.at['муж', 'vaccinated'] = vaccinated
++df.at['муж', 'not vaccinated'] = notVaccinated
++df.at['муж', 'no info'] = noInformation
++
++# pull жен
++vaccinated = dataVac['Gender'].value_counts();
++vaccinated = vaccinated.get('ж')
++notVaccinated = dataWithoutVac['Gender'].value_counts();
++notVaccinated = notVaccinated.get('ж')
++noInformation = noInfo['Gender'].value_counts();
++noInformation = noInformation.get('ж')
++df.at['жен', 'vaccinated'] = vaccinated
++df.at['жен', 'not vaccinated'] = notVaccinated
++df.at['жен', 'no info'] = noInformation
++
++# pull выжило
++vaccinated = dataVac['Outcome'].value_counts();
++vaccinated = vaccinated.get('Выписан')
++notVaccinated = dataWithoutVac['Outcome'].value_counts();
++notVaccinated = notVaccinated.get('Выписан')
++noInformation = noInfo['Outcome'].value_counts();
++noInformation = noInformation.get('Выписан')
++df.at['выжило', 'vaccinated'] = vaccinated
++df.at['выжило', 'not vaccinated'] = notVaccinated
++df.at['выжило', 'no info'] = noInformation
++
++# pull не выжило
++vaccinated = dataVac['Outcome'].value_counts();
++vaccinated = vaccinated.get('Умер')
++notVaccinated = dataWithoutVac['Outcome'].value_counts();
++notVaccinated = notVaccinated.get('Умер')
++noInformation = noInfo['Outcome'].value_counts();
++noInformation = noInformation.get('Умер')
++df.at['не выжило', 'vaccinated'] = vaccinated
++df.at['не выжило', 'not vaccinated'] = notVaccinated
++df.at['не выжило', 'no info'] = noInformation
++
++# pull % выживших
++vaccinated = dataVac['Outcome'].value_counts();
++sumVaccinated = vaccinated.get('Умер') + vaccinated.get('Выписан')
++vaccinated = round(vaccinated.get('Выписан') * 100 / sumVaccinated)
++notVaccinated = dataWithoutVac['Outcome'].value_counts();
++sumNotVaccinated = notVaccinated.get('Умер') + notVaccinated.get('Выписан')
++notVaccinated = round(notVaccinated.get('Выписан') * 100 / sumNotVaccinated)
++noInformation = noInfo['Outcome'].value_counts();
++sumNoInformation = noInformation.get('Умер') + noInformation.get('Выписан')
++noInformation = round(noInformation.get('Выписан') * 100 / sumNoInformation)
++df.at['% выживших', 'vaccinated'] = vaccinated
++df.at['% выживших', 'not vaccinated'] = notVaccinated
++df.at['% выживших', 'no info'] = noInformation
++
++df.to_excel('data2\\statistic.xlsx')
