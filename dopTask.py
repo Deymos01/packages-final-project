@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # # Загрузка данных из Excel файла
 data = pd.read_excel('.\\data\\финальные_данные.xlsx')
 
-# Преобразование колонок 'Start' и 'End' в формат datetime и выделение часов
+# Преобразование колонок 'Start' и 'End' в формат datetime и выделение дней
 data['Start'] = pd.to_datetime(data['Start']).dt.day + 30 * pd.to_datetime(data['Start']).dt.month + 365 * pd.to_datetime(data['Start']).dt.year
 data['End'] = pd.to_datetime(data['End']).dt.day + 30 * pd.to_datetime(data['End']).dt.month + 365 * pd.to_datetime(data['End']).dt.year
 print(data)
